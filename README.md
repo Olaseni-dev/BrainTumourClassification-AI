@@ -10,7 +10,7 @@ To set up the project environment, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/BrainTumourClassification.git
+   git clone https://github.com/Olaseni-dev/BrainTumourClassification-AI.git
    cd BrainTumourClassification
    ```
 
@@ -39,15 +39,15 @@ The data directory should be structured as follows:
 ```
 data/
 |-- train/
-|   |-- class1/
-|   |-- class2/
+|   |-- 1/
+|   |-- 2/
 |   ...
 |-- test/
-|   |-- class1/
-|   |-- class2/
+|   |-- 1/
+|   |-- 2/
 |   ...
 ```
-Each subdirectory (`class1`, `class2`, etc.) contains images of brain tumours classified into respective categories.
+Each subdirectory (`1`, `2`, etc.) contains images of brain tumours classified into respective categories.
 
 ## Data Manipulation
 
@@ -161,6 +161,3 @@ The following libraries are used in this project:
 
 Contributions are welcome! If you have any improvements or suggestions, please create a pull request or open an issue.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
